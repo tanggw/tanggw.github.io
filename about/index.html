@@ -56,15 +56,16 @@
 
   <meta name="description" content="无论从物理学还是生物学 长生 或者 长寿 都有可能 如果这也是你的梦想 那么欢迎你 一起探讨奇妙的宇宙">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://localhost:4000/archives/2019/index.html">
+<meta property="og:title" content="about">
+<meta property="og:url" content="http://localhost:4000/about/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="无论从物理学还是生物学 长生 或者 长寿 都有可能 如果这也是你的梦想 那么欢迎你 一起探讨奇妙的宇宙">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-08-22T09:47:03.652Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="about">
 <meta name="twitter:description" content="无论从物理学还是生物学 长生 或者 长寿 都有可能 如果这也是你的梦想 那么欢迎你 一起探讨奇妙的宇宙">
-  <link rel="canonical" href="http://localhost:4000/archives/2019/">
+  <link rel="canonical" href="http://localhost:4000/about/">
 
 
 <script id="page-configurations">
@@ -73,12 +74,12 @@
     sidebar: "",
     isHome: false,
     isPost: false,
-    isPage: false,
-    isArchive: true
+    isPage: true,
+    isArchive: false
   };
 </script>
 
-  <title>归档 | Hexo</title>
+  <title>about | Hexo</title>
   <meta name="generator" content="Hexo 3.9.0">
   
 
@@ -233,107 +234,58 @@
 
   
 
-          <div id="content" class="content page-archive">
+          <div id="content" class="content page-post-detail">
             
 
+  <div id="posts" class="posts-expand">
+    
+    
+    
+    <div class="post-block page">
+      <header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">about
+
+</h1>
+
+<div class="post-meta">
   
-  
-  
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
-      <span class="archive-page-counter">
-        
-        
+
+</div>
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
         
           
         
-        嗯..! 目前共计 2 篇日志。 继续努力。
-      </span>
+      </div>
       
-
       
-
-  
-  
-  
-
-  
+      
+    </div>
     
-    <div class="collection-title">
-      <h1 class="archive-year" id="archive-year-2019">2019</h1>
-    </div>
-  
-  
 
-  <article class="post" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2019/08/22/欢迎来到我的博客！/" itemprop="url">
-            <span itemprop="name">欢迎来到我的博客！</span>
-          </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2019-08-22T20:46:19+08:00"
-              content="2019-08-22">
-          08-22
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-  
-  
-  
-
-  
-  
-
-  <article class="post" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2019/08/20/hello-world/" itemprop="url">
-            <span itemprop="name">Hello World</span>
-          </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2019-08-20T15:52:57+08:00"
-              content="2019-08-20">
-          08-20
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-
-    </div>
+    
+    
+    
   </div>
-  
-  
-  
-
-  
-
 
 
           </div>
           
+    
+    
+  <div class="comments" id="comments">
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    </div>
+  </div>
+  
+  
 
         </div>
           
@@ -348,6 +300,11 @@
 
   <aside id="sidebar" class="sidebar">
     <div class="sidebar-inner">
+        
+        
+        
+        
+      
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc" data-target="post-toc-wrap">
@@ -592,6 +549,10 @@
 
 
   
+    <script src="/js/post-details.js?v=7.3.0"></script>
+
+  
+
 <script>
   function loadCount() {
     var d = document, s = d.createElement('script');
@@ -601,6 +562,46 @@
   }
   // defer loading until the whole page loading is completed
   window.addEventListener('load', loadCount, false);
+</script>
+<script>
+  function disqus_config() {
+    this.page.url = "http://localhost:4000/about/index.html";
+    this.page.identifier = "about/index.html";
+    this.page.title = 'about';};
+  function loadComments() {
+    if (window.DISQUS) {
+      DISQUS.reset({
+        reload: true,
+        config: disqus_config
+      });
+    } else {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://kevin.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', '' + +new Date());
+      (d.head || d.body).appendChild(s);
+    }
+  }
+    (function() {
+      var offsetTop = document.getElementById('comments').offsetTop - window.innerHeight;
+      if (offsetTop <= 0) {
+        // load directly when there's no a scrollbar
+        window.addEventListener('load', loadComments, false);
+      } else {
+        var disqus_scroll = () => {
+          // offsetTop may changes because of manually resizing browser window or lazy loading images.
+          var offsetTop = document.getElementById('comments').offsetTop - window.innerHeight;
+          var scrollTop = window.scrollY;
+
+          // pre-load comments a bit? (margin or anything else)
+          if (offsetTop - scrollTop < 60) {
+            window.removeEventListener('scroll', disqus_scroll);
+            loadComments();
+          }
+        };
+        window.addEventListener('scroll', disqus_scroll);
+      }
+    })();
+  
 </script>
 
 </body>
