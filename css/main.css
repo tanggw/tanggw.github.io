@@ -1669,7 +1669,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #59e9bf;
+  background: #0b1166;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1973,6 +1973,14 @@ pre .javascript .function {
   50%, 70% {
     transform: scale(1.1);
   }
+}
+.gt-header a,
+.gt-comments a,
+.gt-popup a {
+  border-bottom: none;
+}
+.gt-container .gt-popup .gt-action.is--active::before {
+  top: 0.7em;
 }
 .page-archive .posts-collapse .archive-move-on {
   background: #999;
